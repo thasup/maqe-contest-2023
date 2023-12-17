@@ -1,0 +1,84 @@
+table, th, td {
+  border-collapse: collapse;
+}
+
+table {
+  color: black;
+}
+
+table th {
+  background-color: rgb(0, 195, 255);
+  color: white;
+  text-align: center;
+}
+
+table td {
+  border-bottom;: 1px solid gray;
+  text-align: center;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.club {
+  width: 200px;
+}
+
+.form span {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 4px;
+  display: inline-block;
+}
+
+.form span.lose {
+  background-color: red;
+}
+
+.form span.win {
+  background-color: greenyellow;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+
+  border-bottom: 8px solid green;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+
+  border-top: 8px solid #f00;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.selected {
+  border-bottom: 1px solid red;
+}
+
+h1 {
+  margin-bottom: 32px;
+}
+
+.played {
+  color: gray;
+}
+
+.align-left {
+  text-align: left;
+}
